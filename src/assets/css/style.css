@@ -12,11 +12,12 @@ body {
   height: 100vh;
 }
 
+/* Little box inside the .container */
 .card {
   text-align: center;
   padding: 40px;
   border-radius: 16px;
-  background: #1e293b;
+  background: #172234; /* 1e293b */
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
@@ -61,6 +62,15 @@ h2 {
   margin-bottom: 20px;   
   border: 3px solid #38bdf8; 
 }
+/* Override for screens smaller than 480px (mobile) */
+@media (max-width: 480px) {
+  .profile-img {
+    margin-top: 280px;
+    width: 55%;
+    height: auto;
+    aspect-ratio: 1 / 1; /* maintain square aspect ratio */
+  }
+}
 
 /* Example images from weddings etc. */
 .example-img {
@@ -72,6 +82,13 @@ h2 {
   margin: 15px 0;             /* space above/below each image */
   box-shadow: 0 6px 20px rgba(0,0,0,0.3); /* subtle shadow for depth */
   transition: transform 0.2s ease-in-out;
+}
+/* Override for screens smaller than 480px */
+@media (max-width: 480px) {
+  .example-img {
+    max-width: 90px;  
+    height: 130px;     
+  }
 }
 
 /* Contact form */
