@@ -3,7 +3,6 @@ import './assets/css/style.css'
 
 // Import reactive vars and functions from your external script
 import './assets/css/style.css'
-import { email, messageError, validateForm } from './assets/scripts/scripts.js'
 </script>
 
 <template>
