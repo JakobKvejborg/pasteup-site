@@ -1,48 +1,79 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #0f172a; /* 0f172a This changes the whole website background color */
-  color: white;
+  background: #ffffff; /* 0f172a This changes the whole website background color */
+  color: black;
+  margin: 50px 40px 0 40px;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-/* Little box inside the .container */
-.card {
-  text-align: center;
-  padding: 40px;
-  border-radius: 16px;
-  background: #172234; /* 1e293b */
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-}
-
+/* Main title */
 h1 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
+  font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;        /* medium weight (not too bold) */
+  letter-spacing: 0.25em;  /* wide spacing between letters */
 }
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.7rem;
+    letter-spacing: 0.18em;
+  }
+}
+
+/* Text under h1 */
+.title {
+  opacity: 0.7;
+  font-size: 1.5rem;
+  margin: 10px 0 40px;
+}
+@media (max-width: 600px) {
+  .title {
+    font-size: 1.09rem;
+    letter-spacing: 0.18em;
+  }
+}
+
+/* images */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+
+  width: 100%;     /* fill available space */
+  max-width: 100%; /* don't shrink it */
+}
+
+/* Example images from weddings etc. */
+.example-img {
+  width: 100%;
+  aspect-ratio: 4 / 3;   /* 🔑 keeps all images same shape */
+  object-fit: cover;     /* crops nicely instead of stretching */
+  display: block;
+}
+@media (max-width: 600px) {
+  body {
+    margin-left: 20px;
+    margin-right: 20px; /* ✅ equal spacing */;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr; /* ✅ 1 image per row */
+    gap: 20px;
+  }
+}
+
 
 /* h2 "Kontaktformular" text */
 h2 {
+  margin-top: 60px;
   margin-bottom: 1px;
-  font-size: 1.5rem;
-  text-align: left;
+  font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;        /* medium weight (not too bold) */
+  letter-spacing: 0.10em;  /* wide spacing between letters */
 }
 
-.title {
-  opacity: 0.7;
-  margin: 10px 0 20px;
-}
-
-.description {
-  margin-bottom: 30px;
-  line-height: 1.5;
-}
-
+/* Instagram/email links */
 .links a {
   margin: 0 10px;
   color: #38bdf8;
@@ -53,93 +84,71 @@ h2 {
   text-decoration: underline;
 }
 
-/* Picture of Gustav */
-.profile-img {
-  width: 265px;          
-  height: 265px;         
-  border-radius: 50%; /* makes the image circular */    
-  object-fit: cover;     
-  margin-bottom: 20px;   
-  border: 3px solid #38bdf8; 
-}
-/* Override for screens smaller than 480px (mobile) */
-@media (max-width: 480px) {
-  .profile-img {
-    margin-top: 280px;
-    width: 55%;
-    height: auto;
-    aspect-ratio: 1 / 1; /* maintain square aspect ratio */
-  }
-}
-
-/* Example images from weddings etc. */
-.example-img {
-  width: 100%;                /* fill container width */
-  max-width: 270px;           /* optional max size */
-  height: 370px;               /* maintain aspect ratio */
-  border-radius: 12px;        /* rounded corners */
-  object-fit: cover;          /* crop nicely if container is fixed size */
-  margin: 15px 0;             /* space above/below each image */
-  box-shadow: 0 6px 20px rgba(0,0,0,0.3); /* subtle shadow for depth */
-  transition: transform 0.2s ease-in-out;
-}
-/* Override for screens smaller than 480px */
-@media (max-width: 480px) {
-  .example-img {
-    max-width: 90px;  
-    height: 130px;     
-  }
-}
-
-/* Contact form */
+/* Contact form container */
 .contact-form {
   margin-top: 10px;
   margin-bottom: 20px;
   text-align: left;
 }
 
-.contact-form .form-group {
-  margin-bottom: 15px;
-}
-
+/* Shared base styles for all fields */
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  resize: none;
-  max-width: 100%;
+  max-width: 85%;
   box-sizing: border-box;
   margin-top: 3px;
   padding: 12px 15px;
   border-radius: 10px;
   border: none;
-  background: #0f172a;
+  resize: none;
+  background: #979faf;
   color: white;
   font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', system-ui, sans-serif;
   box-shadow: inset 0 2px 6px rgba(0,0,0,0.4);
   transition: all 0.2s ease-in-out;
-  font-family: -apple-system, BlinkMacSystemFont, 'Inter', system-ui, sans-serif;
 }
 
+/* Placeholder styling */
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
   color: #94a3b8;
 }
 
+/* Focus state */
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
   box-shadow: 0 0 0 2px #38bdf8;
-  background: #1e293b;
+  background: #ced4de;
 }
 
-/* "Send" button */
+/* Name field */
+.contact-form input[name="name"] {
+  background: #585c64;
+}
+
+/* Email field */
+.contact-form input[name="email"] {
+  background: #585c64;
+}
+
+/* Message textarea */
+.contact-form textarea[name="message"] {
+  background: #585c64;
+  min-height: 120px;
+}
+
+/* Send button */
 .contact-form button {
-  width: 30%;
+  width: 26%;
   margin-top: 7px;
+  margin-bottom: 20px;
   padding: 14px;
   border-radius: 12px;
   border: none;
-  background: #38bdf8;
+  background: #1d1d1d;
   color: white;
   font-weight: bold;
   font-size: 1rem;
@@ -150,31 +159,6 @@ h2 {
 .contact-form button:hover {
   background: #0ea5e9;
   transform: scale(1.02);
-}
-
-/* === Mobile first responsive tweaks === */
-@media (min-width: 480px) {
-  .card {
-    padding: 50px 40px;
-  }
-}
-
-/* Prevent mobile autofill / input background color */
-.contact-form input:-webkit-autofill,
-.contact-form input:focus,
-.contact-form input {
-  background-color: #0f172a !important;
-  color: white !important;
-  -webkit-text-fill-color: white !important; /* for Safari autofill text */
-}
-
-/* Error message styling */
-.error {
-  color: #f87171; /* red */
-  font-size: 0.9rem;
-  margin: 5px 0; /* spacing above and below */
-  display: block;
-  text-align: center; /* optional, center it */
 }
 
 /* Footer styling */

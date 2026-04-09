@@ -7,22 +7,25 @@ import './assets/css/style.css'
 
 <template>
   <div class="container">
-    <div class="card">
 
-      <!-- Profile image -->
-      <img class="profile-img" src="/src/assets/images/gustav.png" alt="Gustav Eriksen">
-
-      <h1>PasteUp Media</h1>
+      <h1>PASTEUP MEDIA</h1>
       <p class="title">Content Specialist og Videograf</p>
 
-      <p class="description">
+      <!-- <p class="description">
         Underviser på fotograf- og videoudannelsen, fotograf af bryllupper og portrætter, og skaber af indhold for sociale medier.
-      </p>
+      </p> -->
 
       <!-- Image examples -->
-      <img class="example-img" src="/src/assets/images/billede1.jpg" alt="billede1">
-      <img class="example-img" src="/src/assets/images/billede2.jpg" alt="billede2">
-      <img class="example-img" src="/src/assets/images/billede3.jpg" alt="billede3">
+      <div class="gallery">
+        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede1">
+        <img class="example-img" src="https://images.unsplash.com/photo-1775522547738-30e2910b2a96?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede2">
+        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede3">
+        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede4">
+        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede5">
+        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede6">
+        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede7">
+        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede8">
+      </div>
 
       <!-- Contact Form -->
       <h2>Kontaktformular</h2>
@@ -44,6 +47,5 @@ import './assets/css/style.css'
         <p>&copy; 2026 PasteUp Media - Alle rettigheder forbeholdes - CVR 43564986</p>
       </div>
 
-    </div>
   </div>
 </template>
