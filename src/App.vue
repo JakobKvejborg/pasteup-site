@@ -8,12 +8,8 @@ import './assets/css/style.css'
 <template>
   <div class="container">
 
-      <h1>PASTEUP MEDIA</h1>
+      <h1>GUSTAV ERIKSEN</h1>
       <p class="title">Content Specialist og Videograf</p>
-
-      <!-- <p class="description">
-        Underviser på fotograf- og videoudannelsen, fotograf af bryllupper og portrætter, og skaber af indhold for sociale medier.
-      </p> -->
 
       <!-- Image examples -->
       <div class="gallery">
@@ -25,11 +21,13 @@ import './assets/css/style.css'
         <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede6">
         <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede7">
         <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede8">
+        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede9">
+        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede10">
       </div>
 
       <!-- Contact Form -->
       <h2>Kontaktformular</h2>
-      <form class="contact-form" action="https://formspree.io/f/maqlvppr" method="POST">
+      <form class="contact-form" action="https://formspree.io/f/mlgokldn" method="POST">
         <input type="text" name="name" placeholder="Navn" required>
         <input type="email" name="email" placeholder="Email" required>
         <textarea name="message" rows="4" placeholder="Besked" required></textarea>
