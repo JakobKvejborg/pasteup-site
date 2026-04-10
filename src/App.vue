@@ -13,16 +13,16 @@ import './assets/css/style.css'
 
       <!-- Image examples -->
       <div class="gallery">
-        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede1">
-        <img class="example-img" src="https://images.unsplash.com/photo-1775522547738-30e2910b2a96?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede2">
-        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede3">
-        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede4">
-        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede5">
-        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede6">
-        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede7">
-        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede8">
-        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede9">
-        <img class="example-img" src="https://images.unsplash.com/photo-1773332585749-5146862ba746?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="billede10">
+        <img class="example-img" src="https://iili.io/BEXmdp2.jpg" alt="billede1">
+        <img class="example-img" src="https://iili.io/BEX43ve.jpg" alt="billede2">
+        <img class="example-img" src="https://iili.io/BEXrMIj.jpg" alt="billede3">
+        <img class="example-img" src="https://iili.io/BEXgm0P.jpg" alt="billede4">
+        <img class="example-img" src="https://iili.io/BEXp7N2.jpg" alt="billede5">
+        <img class="example-img" src="https://iili.io/BEXmo2j.jpg" alt="billede6">
+        <img class="example-img" src="https://iili.io/BEhot1f.jpg" alt="billede7">
+        <img class="example-img" src="https://iili.io/BEhFdps.jpg" alt="billede8">
+        <img class="example-img" src="https://iili.io/BEhFBG2.jpg" alt="billede9">
+        <img class="example-img" src="https://iili.io/BEXm4n9.jpg" alt="billede10">
       </div>
 
       <!-- Contact Form -->
