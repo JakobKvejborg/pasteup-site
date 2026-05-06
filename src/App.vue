@@ -13,16 +13,16 @@ import './assets/css/style.css'
 
       <!-- Image examples -->
       <div class="gallery">
-        <img class="example-img" src="https://iili.io/BEXmdp2.jpg" alt="billede1">
-        <img class="example-img" src="https://iili.io/BEX43ve.jpg" alt="billede2">
-        <img class="example-img" src="https://iili.io/BEXrMIj.jpg" alt="billede3">
-        <img class="example-img" src="https://iili.io/BEXgm0P.jpg" alt="billede4">
-        <img class="example-img" src="https://iili.io/BEXp7N2.jpg" alt="billede5">
-        <img class="example-img" src="https://iili.io/BEXmo2j.jpg" alt="billede6">
-        <img class="example-img" src="https://iili.io/BEhot1f.jpg" alt="billede7">
-        <img class="example-img" src="https://iili.io/BEhFdps.jpg" alt="billede8">
-        <img class="example-img" src="https://iili.io/BEhFBG2.jpg" alt="billede9">
-        <img class="example-img" src="https://iili.io/BEXm4n9.jpg" alt="billede10">
+        <img class="example-img" src="https://iili.io/BEXmdp2.jpg">
+        <img class="example-img" src="https://iili.io/BEX43ve.jpg">
+        <img class="example-img" src="https://iili.io/BEXrMIj.jpg">
+        <img class="example-img" src="https://iili.io/BEXgm0P.jpg">
+        <img class="example-img" src="https://iili.io/BEXp7N2.jpg">
+        <img class="example-img" src="https://iili.io/BEXmo2j.jpg">
+        <img class="example-img" src="https://iili.io/BEhot1f.jpg">
+        <img class="example-img" src="https://iili.io/BEhFdps.jpg">
+        <img class="example-img" src="https://iili.io/BEhFBG2.jpg">
+        <img class="example-img" src="https://iili.io/BEXm4n9.jpg">
       </div>
 
       <!-- Contact Form -->
