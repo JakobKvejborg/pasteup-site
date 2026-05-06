@@ -1,6 +1,4 @@
 <script setup>
-import './assets/css/style.css'
-
 // Import reactive vars and functions from your external script
 import './assets/css/style.css'
 </script>
